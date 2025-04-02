@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Site Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .pdf-links a {
+            display: block;
+            margin: 5px 0;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .pdf-links a:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+   
+
+    <!-- 📌 Construction Site Images -->
+    <h3>📷 Site Images</h3>
+    <div class="gallery">
+        <img src="sample pics/WhatsApp Image 2024-04-09 at 14.23.42_3a2ea731.jpg" alt="Construction Site Image 1">
+        <img src="sample pics/WhatsApp Image 2024-04-09 at 14.23.42_3a2ea731.jpg" alt="Construction Site Image 2">
+        <img src="sample pics/WhatsApp Image 2024-04-09 at 14.24.01_4924da99.jpg" alt="Construction Site Image 3">
+    </div> <!-- Project Tabs Section -->
+    <section class="projects-tabs">
+      <div class="container">
+        <h2>Project Details</h2>
+        <div class="tabs-container">
+          <div class="tabs-header">
+          
+            <button class="tab-link active" data-tab="project2">Mudra Elegance</button>
+           
+          </div>
+          
+          <div class="tabs-content">
+              <div id="project2" class="tab-pane">
+                  <div class="project-details">
+                    <div class="project-info">
+                      <h3>Mudra Elegance</h3>
+                      <p>Premium villas with panoramic views</p>
+                      <div class="details-grid">
+                        <div class="detail-item">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <span>Location: Atladara Vadodara</span>
+                        </div>
+                        <div class="detail-item">
+                          <i class="fas fa-rupee-sign"></i>
+                          <span>Price: ₹35L-₹45L</span>
+                        </div>
+                        <div class="detail-item">
+                          <i class="fas fa-ruler-combined"></i>
+                          <span>Area: 1500 - 3000 sq.ft.</span>
+                        </div>
+                        <div class="detail-item">
+                          <i class="fas fa-calendar-check"></i>
+                          <span>Status: Booking open </span>
+                        </div>
+                      </div>
+                      <a href="#" class="cta-button">View Details</a>
+                    </div>
+                    <div class="pricing-card">
+                      <h3>3 BHK Flats</h3>
+                      <div class="price-range">
+                        <span class="from">From ₹32,50,000</span>
+                        <span class="to">To ₹42,00,000</span>
+                      </div>
+                      <div class="floor-pricing">
+                        <h4>Floor-wise Pricing:</h4>
+                        <ul>
+                          <li>7th Floor: ₹32,50,000 - ₹33,00,000</li>
+                          <li>6th Floor: ₹33,00,000 - ₹34,50,000</li>
+                          <li>5th Floor: ₹35,50,000 - ₹36,00,000</li>
+                          <li>4th Floor: ₹36,00,000 - ₹37,50,000</li>
+                          <li>3rd Floor: ₹37,50,000 - ₹38,00,000</li>
+                          <li>2nd Floor: ₹38,50,000 - ₹39,00,000</li>
+                          <li>1st Floor: ₹40,00,000 - ₹42,00,000</li>
+                        </ul>
+                      </div>
+                      <a href="index.html#contact" class="cta-button">Enquire Now</a>
+                    </div>
+                  </div>
+                </div>
+  
+
+    <!-- 📄 PDF Documents -->
+    <h3>📑 Site Documents</h3>
+    <div class="pdf-links">
+        <a href="11 brochure.pdf" target="_blank">📄 Site brochure (PDF)</a>
+       
+    </div>
+    <video autoplay loop muted playsinline>
+        <source src="WhatsApp Video 2024-11-04 at 22.10.10_f985885f.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+
+    <!-- 🏗️ Construction Site Data Table -->
+    <h3>📊 Site Information</h3>
+    <table>
+        <tr>
+            <th>Project Name</th>
+            <td>Mudra Elegance</td>
+        </tr>
+        <tr>
+            <th>Location</th>
+            <td>Atladara,Vadodara</td>
+        </tr>
+       
+        
+       
+    </table>
+
+</body>
+</html>
